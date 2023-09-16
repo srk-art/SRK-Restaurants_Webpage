@@ -1,0 +1,26 @@
+body{
+background-image: url("login.jpg");
+background-size: cover;
+}
+ h1,h4,h5 {
+    color: white;
+    text-shadow: 2px 2px 6px black;
+  }
+#bg-video1 {
+    position: absolute;
+    top: 65px;
+    left: 480px;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    z-index: -1;
+}
+#bg-video2 {
+    position: absolute;
+    top: 65px;
+    left: 185px;
+    width: 60%;
+    height: 75%;
+    object-fit: cover;
+    z-index: -1;
+}
